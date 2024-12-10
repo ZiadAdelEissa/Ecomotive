@@ -6,29 +6,64 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 export default function Footer() {
   return (
-    <div className='footer flex justify-center items-center w-full h-full text-black my-12 p-5 bg-slate-300 '>
+    <footer class="bg-white dark:bg-[#262625]">
+    <div class="container px-6 py-12 mx-auto">
         
-            <div className='grid grid-cols-3 gap-12 max-lg:grid max-lg:grid-cols-1'>
-                <div className='adress flex flex-col justify-evenly gap-4 items-center '>
-                <h1 className='text-2xl font-bold '>Eco<span className='text-orange-600'>Motive</span></h1>
-                <h2 className='text-xl font-bold'>Adress :tgamo3 share3 el ts3een </h2>
-                <h3 className='text-xl font-bold'>Phone : 01151440004</h3>
+        
+        <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700"/>
+
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Who We Are</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Our Philosophy</a>
                 </div>
-                <div className='services flex flex-col justify-evenly gap-4 items-center '>
-                <h1 className='text-2xl font-bold text-orange-600 '>Services</h1>
-                <h2 className='text-xl font-bold'>Polishing</h2>
-                <h3 className='text-xl font-bold'>Paint</h3>
-                <h3 className='text-xl font-bold'>Mechanical Services</h3>
-                <h3 className='text-xl font-bold'>Spare Parts</h3>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Retail & E-Commerce</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Information Technology</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Finance & Insurance</a>
                 </div>
-                <div className='social flex flex-col justify-around gap-2 items-center '>
-                    <h1 className='text-2xl font-bold text-orange-600 '>Connect</h1>
-                    <Link to={'https://www.facebook.com/profile.php?id=61560095597816'} className='text-xl hover:text-blue-800'><TiSocialFacebookCircular /></Link>
-                    <Link to={'https://www.instagram.com/projectx.egy/?hl=ar'} className='text-xl hover:text-red-800'><SlSocialInstagram /></Link>
-                    <Link to={'https://wa.me/+201151440004'} className='text-xl hover:text-green-800'><IoLogoWhatsapp /></Link>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Services</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Translation</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Proofreading & Editing</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Content Creation</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Contact Us</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">+880 768 473 4978</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">info@merakiui.com</a>
                 </div>
             </div>
         </div>
+        
+        <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700"/>
+        
+        <div class="flex flex-col items-center justify-between sm:flex-row">
+            <a href="#">
+                <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt=""/>
+            </a>
+
+            <p class="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">© Copyright 2021. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
       
   )
 }
