@@ -6,11 +6,10 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 export default function Footer() {
   return (
-    <footer class="bg-white dark:bg-[#262625]">
-    <div class="container px-6 py-12 mx-auto">
+    <footer class=" glass">
+    <div class="container px-6 py-12  mx-auto">
         
         
-        <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700"/>
 
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div>

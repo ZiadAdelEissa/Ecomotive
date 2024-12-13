@@ -9,6 +9,7 @@ export default {
       animation: {
         wiggle: "wiggle 1.5s ease-in-out ",
        linkk : 'linkk 2s ease-in-out ',
+       Righttoleft:"right 2s ease-in-out"
       },
       keyframes: {
         wiggle: {
@@ -19,8 +20,14 @@ export default {
           '0%': { transform: 'translatex(100%)'},
           '100%': { transform: 'translatex(0%)'},
         },
+        right: {
+          '0%': { transform: 'translateX(-100%)'},
+          '100%': { transform: 'translateX(0%)'},
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }

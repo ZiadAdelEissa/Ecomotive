@@ -6,38 +6,29 @@ import spareimg from '../imgs/spare.jfif';
 export default function Preff() {
  
   return (
-    <div className="work-sample flex flex-col items-center w-full h-full my-9 ">
-        <h1 className="text-4xl font-bold text-orange-500">Our services</h1>
-      <div className="work-item grid grid-cols-4 justify-items-center items-center max-md:grid max-md:grid-cols-2 max-sm:grid max-sm:grid-cols-1  w-full h-full ">
-        <div className="card flex flex-col justify-around items-center p-4  w-[350px] h-[450px] ">
-          <div className="card-img flex items-center w-[260px] h-[180px]">
-           <img className="w-full h-full rounded-xl object-cover " src={polishing} alt="first-item"/>
-          </div>
-          <h1 className="text-2xl text-orange-500">Polishing</h1>
-          <p className="text-xl text-slate-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, omnis quaerat. Nostrum nemo id hic magni eos aut vel officiis?</p>
+    <section class=" shadow-xl  my-1 ">
+    <div class="gap-8 items-center my-3 animate-Righttoleft bg-gray-900 w-full py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <img class="w-full " src={polishing} alt="dashboard image"/>
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-300">Let's create more tools and ideas that brings us together.</h2>
+            <p class="mb-6 font-light text-white md:text-lg">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+            <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                Get started
+                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
         </div>
-        <div className="card flex flex-col justify-around items-center p-4  w-[350px] h-[450px]  ">
-          <div className="card-img flex items-center w-[260px] h-[180px]">
-           <img className="w-full h-full rounded-xl object-cover " src={paintimg} alt="first-item"/>
-          </div>
-          <h1 className="text-2xl text-orange-500">Repaint</h1>
-          <p className="text-xl text-slate-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, omnis quaerat. Nostrum nemo id hic magni eos aut vel officiis?</p>
-        </div>
-        <div className="card flex flex-col justify-around items-center p-4  w-[350px] h-[450px]  ">
-          <div className="card-img flex items-center w-[260px] h-[180px]">
-           <img className="w-full h-full rounded-xl object-cover " src={fiximg} alt="first-item"/>
-          </div>
-          <h1 className="text-2xl text-orange-500">Mechanical repair</h1>
-          <p className="text-xl text-slate-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, omnis quaerat. Nostrum nemo id hic magni eos aut vel officiis?</p>
-        </div>
-        <div className="card flex flex-col justify-around items-center p-4  w-[350px] h-[450px]  ">
-          <div className="card-img flex items-center w-[260px] h-[180px]">
-           <img className="w-full h-full rounded-xl object-cover " src={spareimg} alt="first-item"/>
-          </div>
-          <h1 className="text-2xl text-orange-500">Spare Parts</h1>
-          <p className="text-xl text-slate-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, omnis quaerat. Nostrum nemo id hic magni eos aut vel officiis?</p>
-        </div>
-      </div>
     </div>
+    <div class="gap-8 items-center animate-linkk py-8 my-3 bg-slate-400  px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-black">Let's create more tools and ideas that brings us together.</h2>
+            <p class="mb-6 font-light text-gray-900 md:text-lg">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+            <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                Get started
+                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+        </div>
+        <img class="w-full " src={spareimg} alt="dashboard image"/>
+    </div>
+</section>
   );
 }

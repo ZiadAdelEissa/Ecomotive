@@ -2,8 +2,8 @@ import React from 'react'
 import aboutimg from '../imgs/about3.jfif'
 export default function About() {
   return (
-    <section class="bg-white dark:bg-[#262625]">
-    <div class="container px-6 py-10 mx-auto">
+    <section class=" glass ">
+    <div class="container px-6 py-10 mx-auto animate-linkk">
         <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">About Us</h1>
 
         <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
