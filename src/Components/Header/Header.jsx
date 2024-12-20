@@ -7,10 +7,15 @@ export default function Header() {
       <video
         className=" object-cover w-full h-full max-md:h-full max-md:w-full"
         src={headv}
-        autoPlay
         muted
         loop
-        playsinline
+        playsInline
+        crossOrigin="anonymous"
+        poster={headimg}
+        alt="background-video"
+        style={{ objectFit: "cover" }}
+        preload="false"
+        autoPlay
         type="video/mp4"
       />
       {/* <img src={headimg} alt='background-img' className='head-img object-cover w-full h-[400px]'/> */}

@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer'
 import Rejister from './Components/Reqister/Rejister'
 import Projectss from './Components/Projectss/Projectss'
 import Contact from './Components/Contact/Contact'
+import Dash from './Components/Dash/Dash'
 
 function App() {
 
@@ -25,7 +26,9 @@ function App() {
     <Route path="rejister" element={<Rejister />} />
     <Route path="work" element={<Projectss />} />
     <Route path="contact" element={<Contact />} />
+    <Route path="adds" element={<Dash/>} />
     </Routes>
+    
         <Footer/>
     </>
   )
